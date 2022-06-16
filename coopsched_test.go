@@ -34,6 +34,7 @@ func ExampleScheduler() {
 			Yield(ctx)
 			// Do some piece of the computation.
 		}
+
 	})
 
 	wg.Add(1)
